@@ -1,0 +1,7 @@
+帮我写一个用whisper本地语音转文字的app，要求是两个页面，一个主页一个设置页面。
+
+主页是一个语言选择按钮，可以选择听写语言。还有两个按钮，存储最近使用过的两种语言，点击就可以使用。然后旁边是开始/暂停听写的按钮。剩下的大块面积是一个可以滚动、可以选择的识别结果。开始听写后，实时显示最新的听写结果。重点是要实时显示，而不是录音完成以后去处理。
+
+设置页面可以下载/选择/管理模型，比如说whisper-large-v3，可以切换modelscope/huggingface的下载源。modelscope的在这：https://modelscope.cn/models/openai-mirror/whisper-large-v3-turbo。其他大的小的whisper也要可以下载，并且可以自己输入仓库地址来下载。
+
+你可以参考现有的flutter whisper的库。ios android macos windows web最好都能支持。
